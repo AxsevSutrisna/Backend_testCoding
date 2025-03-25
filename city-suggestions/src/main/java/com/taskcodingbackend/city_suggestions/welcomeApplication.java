@@ -9,7 +9,12 @@ public class welcomeApplication {
     
     @GetMapping("/welcome")    
     public String welcome() {
-        return "Welcome to the City Suggestions API";
+        return "Ini adalah contoh untuk REST API Spring Boot";
+    }
+
+    @GetMapping("/welcomeSpring")    
+    public String welcomeSpring() {
+        return "Spring Boot is working!";
     }
 
 }
